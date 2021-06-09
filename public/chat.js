@@ -16,7 +16,7 @@ btn.addEventListener('click',function(){
 })
 
 //Listen for events 
-
+// testing 
 socket.on('chat',function(data){
     output.innerHTML += '<p><strong>'+ data.handle + ':</strong>' + data.message + '</p>'
 })
