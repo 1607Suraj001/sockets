@@ -10,7 +10,7 @@ const SERVER = app.listen(port,function(){
 })
 
 //Static Files 
-
+//learing git and github
 app.use(EXPRESS.static('public'));
 
 //Socket setup
